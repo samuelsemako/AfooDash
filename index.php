@@ -15,7 +15,9 @@
                 <div class="logo-div">
                     <img src="<?php echo $websiteUrl ?>/all-images/images/logo.png" alt="logo">
                 </div>
+                <a href="<?php echo $websiteUrl ?>/admin/index">
                 <button class="btn">Admin Login <i class="bi-arrow-right"></i></button>
+                </a>
             </div>
         </header>
 
@@ -28,7 +30,9 @@
                     </h1>
                     <div class="button-div">
                         <button class="btn">Admin Login <i class="bi-arrow-right"></i></button>
+                        <a href="<?php echo $url ?>">
                         <button class="btn transparent">Visit website <i class="bi-box-arrow-right"></i></button>
+                        </a>
                     </div>
                 </div>
 

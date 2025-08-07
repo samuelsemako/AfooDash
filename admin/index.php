@@ -12,7 +12,7 @@
     <div class="body-div">
         <div class="body-inner-div">
             <div class="image-div">
-                <img src="images/bg.png" alt="Login Image">
+                <!-- <img src="images/back2.png" alt="Login Image"> -->
             </div>
 
             <div class="content-div">

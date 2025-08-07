@@ -12,10 +12,12 @@
     <div class="body-div">
         <div class="body-inner-div">
             <div class="image-div">
-                <img src="images/bg.png" alt="Login Image">
             </div>
 
             <div class="content-div">
+                <div class="logo-div">
+                    <img src="images/logo.png" alt="logo image">
+                </div>
                 <h1>Reset Password</h1>
                 <div class="form-div">
                     <div class="text_field_container" id="emailAddress_container" title="Field for phone number">
@@ -26,12 +28,11 @@
                             });
                         </script>
                     </div>
-
                 </div>
-                <button class="btn"><i class="bi-check"></i>Log-In</button>
+                <button class="btn"><i class="bi-check"></i>Proceed</button>
                 <div class="reset-password-div">
                     <span>Existing User?</span>
-                    <a href="<?php echo $websiteUrl ?>/admin/index">LOGIN</a>
+                    <a href="<?php echo $websiteUrl ?>/admin/index">LogIn</a>
                 </div>
             </div>
         </div>
