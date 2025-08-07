@@ -1,0 +1,101 @@
+@charset "utf-8";
+.body-div{
+    width: 100%;
+    background: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.body-inner-div{
+    width: 70%;
+    min-height: 200px;
+    background: var(--white-color);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.body-inner-div .image-div{
+    width: 50%;
+    min-height: 200px;
+    border-radius: 6px 0px 0px 6px;
+    overflow: hidden;
+    -webkit-border-radius: 6px 0px 0px 6px;
+    -moz-border-radius: 6px 0px 0px 6px;
+    -ms-border-radius: 6px 0px 0px 6px;
+    -o-border-radius: 6px 0px 0px 6px;
+}
+
+.body-inner-div .image-div img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.body-inner-div .content-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.body-inner-div .content-div .logo-div{
+    width: 120px;
+}
+
+.body-inner-div .content-div .logo-div img{
+    width: 100%;
+}
+
+.body-inner-div .content-div h1{
+    color: var(--body-color);
+    font-size: 22px;
+}
+
+.body-inner-div .content-div .form-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-inner-div .content-div .btn{
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-family: sub-title-font;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.body-inner-div .content-div .btn:hover{
+    opacity: .6;
+}
+
+.body-inner-div .content-div .reset-password-div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.body-inner-div .content-div .reset-password-div span{
+    color: var(--sub-body-color);
+    font-size: 12px;
+}
+
+.body-inner-div .content-div .reset-password-div a{
+    color: var(--secondary-color);
+}
