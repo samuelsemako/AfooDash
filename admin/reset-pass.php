@@ -15,9 +15,6 @@
             </div>
 
             <div class="content-div">
-                <div class="logo-div">
-                    <img src="images/logo.png" alt="logo image">
-                </div>
                 <h1>Reset Password</h1>
                 <div class="form-div">
                     <div class="text_field_container" id="emailAddress_container" title="Field for phone number">

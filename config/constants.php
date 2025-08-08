@@ -1,7 +1,7 @@
 <?php
 	error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_WARNING);
 	$websiteAutoUrl =(isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	$appName='NEW PROJECT'; 
+	$appName='AFOOTECH'; 
 
 	$websiteUrl = 'http://localhost/all-projects/afooDash'; /// Local Url
 	// $websiteUrl = 'http://10.167.141.185/all-projects/afooDash';
