@@ -13,10 +13,12 @@
         <header>
             <div class="header-inner">
                 <div class="logo-div">
-                    <img src="<?php echo $websiteUrl ?>/all-images/images/logo.png" alt="logo">
+                    <a href="<?php echo $websiteUrl ?>/index">
+                        <img src="<?php echo $websiteUrl ?>/all-images/images/logo.png" alt="logo">
+                    </a>
                 </div>
                 <a href="<?php echo $websiteUrl ?>/admin/index">
-                <button class="btn">Admin Login <i class="bi-arrow-right"></i></button>
+                    <button class="btn" title="login">Admin Login <i class="bi-arrow-right"></i></button>
                 </a>
             </div>
         </header>
@@ -29,9 +31,11 @@
                         Student Management Portal
                     </h1>
                     <div class="button-div">
-                        <button class="btn">Admin Login <i class="bi-arrow-right"></i></button>
+                        <a href="<?php echo $websiteUrl ?>/admin/index">
+                            <button class="btn" title="login">Admin Login <i class="bi-arrow-right"></i></button>
+                        </a>
                         <a href="<?php echo $url ?>">
-                        <button class="btn transparent">Visit website <i class="bi-box-arrow-right"></i></button>
+                            <button class="btn transparent" title="To website">Visit website <i class="bi-box-arrow-right"></i></button>
                         </a>
                     </div>
                 </div>

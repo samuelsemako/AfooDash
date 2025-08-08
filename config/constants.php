@@ -3,8 +3,8 @@
 	$websiteAutoUrl =(isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$appName='NEW PROJECT'; 
 
-	//$websiteUrl = 'http://localhost/all-projects/afooDash'; /// Local Url
-	$websiteUrl = 'http://10.167.141.185/all-projects/afooDash';
+	$websiteUrl = 'http://localhost/all-projects/afooDash'; /// Local Url
+	// $websiteUrl = 'http://10.167.141.185/all-projects/afooDash';
 	$url = 'https://afootech.com/';
 	//$websitePath = $_SERVER['DOCUMENT_ROOT'];
 	$websitePath = $_SERVER['DOCUMENT_ROOT'].'/projects/international-exams'; //dirname(__FILE__);

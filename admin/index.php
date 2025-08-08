@@ -11,17 +11,17 @@
 <body>
     <div class="body-div">
         <div class="body-inner-div">
-            <div class="image-div">
-                <!-- <img src="images/back2.png" alt="Login Image"> -->
-            </div>
+            <div class="image-div"></div>
 
             <div class="content-div">
                 <div class="logo-div">
-                    <img src="images/logo.png" alt="logo image">
+                    <a href="<?php echo $websiteUrl ?>/index">
+                        <img src="images/logo.png" alt="logo image">
+                    </a>
                 </div>
                 <h1>Administartive Log-in</h1>
                 <div class="form-div">
-                    <div class="text_field_container" id="emailAddress_container" title="Field for phone number">
+                    <div class="text_field_container" id="emailAddress_container" title="Field for email address">
                         <script>
                             textField({
                                 id: 'emailAddress',
@@ -40,7 +40,7 @@
                     </div>
 
                 </div>
-                <button class="btn"><i class="bi-check"></i>Proceed</button>
+                <button class="btn" title="login"><i class="bi-check"></i>LogIn</button>
                 <div class="reset-password-div">
                     <span>Forgot password?</span>
                     <a href="<?php echo $websiteUrl ?>/admin/reset-pass">RESET PASSWORD</a>

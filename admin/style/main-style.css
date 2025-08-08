@@ -60,6 +60,7 @@
     background: var(--primary-color);
     color: var(--white-color);
     font-family: sub-title-font;
+    font-size: 15px;
     border-radius: 7px;
     display: flex;
     justify-content: center;
@@ -73,7 +74,7 @@
 }
 
 .body-inner-div .content-div .btn:hover{
-    opacity: .6;
+   background: var(--secondary-color);
 }
 
 .body-inner-div .content-div .reset-password-div{

@@ -29,7 +29,7 @@
                         </script>
                     </div>
                 </div>
-                <button class="btn"><i class="bi-check"></i>Proceed</button>
+                <button class="btn" title="Otp button"><i class="bi-check"></i>Proceed</button>
                 <div class="reset-password-div">
                     <span>Existing User?</span>
                     <a href="<?php echo $websiteUrl ?>/admin/index">LogIn</a>
